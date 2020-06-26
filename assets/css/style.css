@@ -37,7 +37,6 @@ html{
 	display: none;
 	opacity: 0;
 }
-
 *{
 	padding: 0;
 	margin:0;
@@ -60,7 +59,7 @@ section.mm{
 }
 h1{
 	font-family: bromello;
-	font-size: 45px;
+	font-size: 38px;
 }
 h2{
 	font-family: caviar;
@@ -197,13 +196,13 @@ Margin Level
 	font-size: 16px; text-shadow: 2px 2px #9c6d5d59;
 }
 .svbox{
-	text-align: center;position: relative;top: -30px; width: 220px;margin-left: auto;margin-right: auto
+	text-align: center;position: relative;top: -30px; width: 300px;margin-left: auto;margin-right: auto
 }
 .img_bunga{
 	height: 70px;width: 70px;border-radius: 50%
 }
 .sv_sh{
-	font-size: 12px;width: 100%;text-align: right;padding-right: 10px;
+	font-size: 12px;width: 250px;text-align: right;padding-right: 10px;
 }
 .arum_text{
 	font-family: caviar;font-size: 12px;
@@ -232,10 +231,10 @@ Margin Level
 	background-size: 180vw 100%;
 }
 .bg_nila{
-	background:url('../img/03-min.jpg');background-position: -10px 0;background-size: 150% 100%;
+	background:url('../img/03-min.png');background-position: -30px 0;background-size: 113% 100%;
 }
 .bg_denny{
-	background:url('../img/04-min.jpg');background-position: -160px 0;background-size: 150% 100%;
+	background:url('../img/04-min.png');background-position: -20px 0;background-size: 122% 100%;
 }
 .bg_gal_full{
 	background:url('../img/12-min.jpg');width: 100%;height: 100vh;background-size: 100% 100%; text-align: center
@@ -416,7 +415,8 @@ Margin Level
   }
   .sv_sh{
   	font-size: 17px;
-  	text-align: center;
+    width: 100%;
+    text-align: center;
   	padding-bottom: 10px
   }
   h1{
@@ -541,5 +541,33 @@ Margin Level
   }
   #nila{
   	padding-top: 100px;
+  }
+}
+@media only screen and (max-width: 330px) {
+  #countdown{
+    padding-top: 80px !important;
+  }
+  .info_item{
+    font-size: 11px;
+  }
+  .logo_info{
+    width: 47px;
+    height: 35px;
+  }
+  #sectionwave{
+    top:-180px !important;
+  }
+  .info_item_sub{
+    font-size: 11px;
+  }
+  .box_info{
+    height: 105vh !important;
+  }
+  .sub_info_bg{
+    font-size: 11px;
+  }
+  .sub2_info_bg{
+    font-size: 19px;
+    padding-top: 15px;
   }
 }
