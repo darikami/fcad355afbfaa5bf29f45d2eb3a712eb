@@ -6,8 +6,8 @@ function getUrlVars() {
     return vars;
 }
 var atd = getUrlVars()["to"];
-atd = atd.replace("dan","&");
-$('#atd').text(atd);
+adt = atd.replace("dan","&");
+$('#atd').text(adt);
 
 
 
