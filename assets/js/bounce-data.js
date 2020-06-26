@@ -1,3 +1,5 @@
+
+
 function getUrlVars() {
     var vars = {};
     var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
@@ -6,7 +8,10 @@ function getUrlVars() {
     return vars;
 }
 var atd = getUrlVars()["to"];
-adt = atd.replace("dan","&");
+var adt = []
+if (atd!=undefined) {
+    adt = atd.replace('dan','&');
+}
 $('#atd').text(adt);
 
 
