@@ -553,13 +553,13 @@ Margin Level
     padding-top: 80px !important;
   }
   .info_item{
-    font-size: 11px;
+    font-size: 7px;
   }
   .info_item_sub{
-    font-size: 11px;
+    font-size: 7px;
   }
   .f13{
-    font-size: 11px;
+    font-size: 7px;
   }
   .logo_info{
     width: 47px;
@@ -573,7 +573,7 @@ Margin Level
   }
   .box_info{
     height: auto !important;
-    padding-bottom: 100px;
+    padding-bottom: 200px;
   }
   .sub_info_bg{
     font-size: 11px;
