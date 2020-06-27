@@ -39,7 +39,7 @@ gsap.to("#layer",{duration:1,display:'none'})
 
 var target_date = new Date();		
 target_date.setDate(8);
-target_date.setMonth(8);
+target_date.setMonth(7);
 target_date.setHours(9);
 var days, hours, minutes, seconds; // variables for time units
 

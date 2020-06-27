@@ -544,10 +544,21 @@ Margin Level
   }
 }
 @media only screen and (max-width: 330px) {
+  .info_marg{
+    width: 240px;
+    margin-left: auto !important;
+    margin-right:auto !important;  
+  }
   #countdown{
     padding-top: 80px !important;
   }
   .info_item{
+    font-size: 11px;
+  }
+  .info_item_sub{
+    font-size: 11px;
+  }
+  .f13{
     font-size: 11px;
   }
   .logo_info{
@@ -561,7 +572,8 @@ Margin Level
     font-size: 11px;
   }
   .box_info{
-    height: 105vh !important;
+    height: auto !important;
+    padding-bottom: 100px;
   }
   .sub_info_bg{
     font-size: 11px;
