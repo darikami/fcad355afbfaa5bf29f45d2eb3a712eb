@@ -29,6 +29,9 @@ font-family: "vibur";
 src: url(../font/Vibur-Regular.ttf);
 }
 
+:root {
+color-scheme: light;
+}
 html{
 	margin: 0;
 	padding: 0;
