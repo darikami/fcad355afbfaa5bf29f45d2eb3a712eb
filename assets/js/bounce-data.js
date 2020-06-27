@@ -1,5 +1,10 @@
-
-
+if (window.matchMedia && 
+    window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    if (window.innerWidth < 500) {
+        $('.dmode').css('color','#707070');
+        $('.dmodeg').css('color','#A6A066');
+    }
+}
 function getUrlVars() {
     var vars = {};
     var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
