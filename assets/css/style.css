@@ -57,6 +57,7 @@ section.nm{
 section.mm{
 	margin: 20px;
 }
+
 h1{
 	font-family: bromello;
 	font-size: 38px;
@@ -543,9 +544,9 @@ Margin Level
   	padding-top: 100px;
   }
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 380px) {
   .info_marg{
-    width: 240px;
+    width: 300px;
     margin-left: auto !important;
     margin-right:auto !important;  
   }
@@ -553,22 +554,23 @@ Margin Level
     padding-top: 80px !important;
   }
   .info_item{
-    font-size: 11px;
+    font-size: 15px !important;
   }
   .info_item_sub{
-    font-size: 11px;
+    font-size: 15px !important;
   }
   .f13{
-    font-size:11px;
+    font-size:12px !important;
   }
   .logo_info{
-    width: 47px;
-    height: 35px;
+    width: 57px;
+    height: 45px;
   }
   #sectionwave{
     top:-180px !important;
   }
   .info_item_sub{
+    padding-top: 7px;
     font-size: 11px;
   }
   .box_info{
