@@ -240,8 +240,11 @@ Margin Level
 .bg_denny{
 	background:url('../img/04-min.png');background-position: 0 0;background-size: 100% 100%;
 }
+#bg_gepeng{
+  height: 250px;
+}
 .bg_gal_full{
-	background:url('../img/12-min.jpg');width: 100%;height: 100vh;background-size: 100% 100%; text-align: center
+	background:url('../img/12-min.jpg');width: 100%;height: 85vh;background-size: 100% 100%; text-align: center
 }
 .box_nila,.box_denny{
 	padding-top: 40%;
